@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Query</title>
+	<link rel="stylesheet" type="text/css" href="resp.css">
+	<!-- http://responsivetesttool.com/ -->
+<style>
+.box {
+	width: 33%;
+	float: left;
+}
+.box img { width: 100%; }
+@media only screen and (max-width: 320px) {
+	.box { width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="box">
+	<img src="img/1.jpg" alt="1" />
+</div>
+<div class="box">
+	<img src="img/2.jpg" alt="2" />
+</div>
+<div class="box">
+	<img src="img/2.jpg" alt="2" />
+</div>
+<div id="contact-icon"></div>
+</body>
+</html>

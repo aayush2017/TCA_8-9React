@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sprite</title>
+<style>
+#d1 {
+	background-image: url("sprite.png");
+	width: 99px;
+	height: 99px;
+	background-position: 0px 0px;
+	transition: all .3s;
+}
+#d1:hover {
+	background-position: 0px -99px;
+}
+#d2 {
+	background-image: url("sprite.png");
+	width: 99px;
+	height: 99px;
+	background-position: -99px 0px;
+
+}
+#d2:hover {
+	background-position: -99px -98px;
+	transition: all .3s;
+}
+#d3 {
+	background-image: url("sprite.png");
+	width: 99px;
+	height: 99px;
+	background-position: -198px 0px;
+}
+
+</style>
+</head>
+<body>
+<img src="sprite.png" />
+<div id="d1"></div>
+<div id="d2"></div>
+<div id="d3"></div>
+</body>
+</html>
